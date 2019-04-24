@@ -1,0 +1,41 @@
+{
+  "name": "minutes-to-read",
+  "version": "1.0.0",
+  "description": "It happened a while ago",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava & xo"
+  },
+  "repository": "abranhe/minutes-to-read",
+  "author": {
+    "name": "Abraham Hernandez",
+    "email": "abraham@abranhe.com",
+    "url": "https://abranhe.com"
+  },
+  "files": [ 
+    "index.js"
+  ],
+  "keywords": [ 
+    "medium",
+    "read",
+    "words",
+    "wpm",
+    "minutes",
+    "time",
+    "time-to-read"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/minutes-to-read/issues"
+  },
+  "homepage": "https://p.abranhe.com/minutes-to-read",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
