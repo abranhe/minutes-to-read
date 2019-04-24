@@ -1,6 +1,6 @@
 {
   "name": "minutes-to-read",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minutes to read",
   "main": "index.js",
   "scripts": {

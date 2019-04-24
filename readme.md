@@ -10,7 +10,8 @@
 [![](https://cdn.abranhe.com/badges/paypal.svg)](https://paypal.me/abranhe/10)
 [![](https://img.shields.io/npm/v/minutes-to-read.svg)](https://npmjs.org/minutes-to-read)
 
-	
+Read time is based on the average reading speed of an adult (roughly 265 [Words per minutes](https://en.wikipedia.org/wiki/Words_per_minute) according to a [Medium's article](https://help.medium.com/hc/en-us/articles/214991667-Read-time).
+
 ## Install
 
 ```
@@ -92,7 +93,7 @@ For a 2 words text reading a word per minute it will take 2 minutes.
 
 ```js
 m2r('Lorem ipsum', 1);
-// => 2 minutes to finish
+// => 2 min to read
 ```
 
 ## Team
