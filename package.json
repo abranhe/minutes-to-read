@@ -1,7 +1,7 @@
 {
   "name": "minutes-to-read",
   "version": "1.0.0",
-  "description": "It happened a while ago",
+  "description": "Minutes to read",
   "main": "index.js",
   "scripts": {
     "test": "ava & xo"
