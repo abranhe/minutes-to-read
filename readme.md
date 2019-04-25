@@ -34,8 +34,8 @@ const longText = 'Lorem ipsum dolor sit am...' // 500 words
 m2r(longText, 'minutes to finish');
 // => 2 minutes to finish
 
-m2r(longText, 'minutes to read if you reading rate is 2 wpm', 2);
-// => 250 minutes to read if you reading rate is 2 wpm
+m2r(longText, 'minutes to read if your reading rate is 2 wpm', 2);
+// => 250 minutes to read if your reading rate is 2 wpm
 ```
 
 ## API

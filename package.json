@@ -1,10 +1,10 @@
 {
   "name": "minutes-to-read",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minutes to read",
   "main": "index.js",
   "scripts": {
-    "test": "ava & xo"
+    "test": "ava & xo && tsd"
   },
   "repository": "abranhe/minutes-to-read",
   "author": {
@@ -12,10 +12,11 @@
     "email": "abraham@abranhe.com",
     "url": "https://abranhe.com"
   },
-  "files": [ 
-    "index.js"
+  "files": [
+    "index.js",
+		"index.d.ts"
   ],
-  "keywords": [ 
+  "keywords": [
     "medium",
     "read",
     "words",
@@ -31,7 +32,8 @@
   "homepage": "https://p.abranhe.com/minutes-to-read",
   "devDependencies": {
     "ava": "^1.4.1",
-    "xo": "^0.24.0"
+    "xo": "^0.24.0",
+    "tsd": "^0.7.2"
   },
   "xo": {
     "ignores": [
