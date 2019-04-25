@@ -9,6 +9,14 @@ test('Throw error when incorrect datatype in the first argument', (t) => {
   t.is(error.message, 'Expected an String in the first argument, got number');
 });
 
+test('Throw error when incorrect datatype in the second argument', (t) => {
+  const error = t.throws(() => {
+    m2r('str', {}||[]);
+  }, TypeError);
+
+  t.is(error.message, 'Expected an String/Number in the second argument, got object');
+});
+
 test('Throw error when incorrect datatype in the third argument', (t) => {
   const error = t.throws(() => {
     m2r('str', 'str', 'str');
