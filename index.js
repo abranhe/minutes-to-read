@@ -15,6 +15,15 @@ module.exports = (text, altTextOrWpm, wpm) => {
 		);
 	}
 
+	/* here it is */
+	if (typeof altTextOrWpm !== undefined) {
+		if (typeof altTextOrWpm !== 'string' && typeof altTextOrWpm !== 'number') {
+			throw new TypeError(
+				`your error`,
+			);
+		}
+	}
+
 	if (wpm !== undefined && typeof wpm !== 'number') {
 		throw new TypeError(
 			`Expected a Number in the third argument, got ${typeof wpm}`,
