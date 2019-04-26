@@ -1,6 +1,6 @@
 {
   "name": "minutes-to-read",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minutes to read",
   "main": "index.js",
   "scripts": {
@@ -34,10 +34,5 @@
     "ava": "^1.4.1",
     "xo": "^0.24.0",
     "tsd": "^0.7.2"
-  },
-  "xo": {
-    "ignores": [
-      "test.js"
-    ]
   }
 }
