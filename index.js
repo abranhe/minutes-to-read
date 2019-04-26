@@ -10,14 +10,17 @@ const optionalText = text => {
 
 module.exports = (text, altTextOrWpm, wpm) => {
 	if (typeof text !== 'string') {
-		throw new TypeError(
-			`Expected an String in the first argument, got ${typeof text}`,
-		);
+		throw new TypeError(`Expected an String in the first argument, got ${typeof text}`);
+	}
+
+	if (altTextOrWpm !== undefined) {
+		if (typeof altTextOrWpm !== 'string' && typeof altTextOrWpm !== 'number') {
+			throw new TypeError(`Expected an String/Number in the second argument, got ${typeof altTextOrWpm}`);
+		}
 	}
 
 	if (wpm !== undefined && typeof wpm !== 'number') {
-		throw new TypeError(
-			`Expected a Number in the third argument, got ${typeof wpm}`,
+		throw new TypeError(`Expected a Number in the third argument, got ${typeof wpm}`,
 		);
 	}
 
